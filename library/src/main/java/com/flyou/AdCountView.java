@@ -1,4 +1,4 @@
-package com.flyou.countview;
+package com.flyou;
 
 import android.content.Context;
 import android.content.res.TypedArray;
@@ -10,7 +10,8 @@ import android.support.annotation.ColorInt;
 import android.text.TextUtils;
 import android.util.AttributeSet;
 import android.view.View;
-import android.widget.Toast;
+
+import com.flyou.countview.R;
 
 /**
  * Created by fzl on 2017/2/17.
@@ -191,7 +192,7 @@ public class AdCountView extends View implements CountAnimationUtil.OnInterpolat
     /**
      * set text color
      */
-    public void setTextClor(@ColorInt int textColor) {
+    public void setTextColor(@ColorInt int textColor) {
         mTextPaint.setColor(textColor);
     }
 
@@ -205,7 +206,7 @@ public class AdCountView extends View implements CountAnimationUtil.OnInterpolat
     /**
      * set circle background color
      */
-    public void setbackgroundColor(@ColorInt int backGroundColor) {
+    public void setBackgroundColor(@ColorInt int backGroundColor) {
         mCircleBackgroundPaint.setColor(backGroundColor);
     }
 
@@ -235,7 +236,7 @@ public class AdCountView extends View implements CountAnimationUtil.OnInterpolat
 
 
     /**
-     * anim start or stop
+     * anim start or stop listener
      */
     public void setOnStatusChangeListener(OnStatusChangeListener listener) {
         this.onStatusChangeListener = listener;

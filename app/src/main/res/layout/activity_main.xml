@@ -11,20 +11,20 @@
         tools:context="com.flyou.adcountview.MainActivity"
         >
 
-    <com.flyou.countview.AdCountView
+    <com.flyou.AdCountView
 
             android:id="@+id/ad_count_view1"
             android:layout_width="80dp"
             android:layout_height="80dp"
 
             />
-    <com.flyou.countview.AdCountView
+    <com.flyou.AdCountView
             android:layout_marginTop="10dp"
             android:id="@+id/ad_count_view2"
             android:layout_width="80dp"
             android:layout_height="80dp"
             />
-    <com.flyou.countview.AdCountView
+    <com.flyou.AdCountView
             android:layout_marginTop="50dp"
             android:id="@+id/ad_count_view3"
             android:layout_width="150dp"
