@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/base_black_10"
+        android:gravity="center"
+        tools:context="com.flyou.adcountview.MainActivity"
+        >
+
+    <com.flyou.countview.AdCountView
+
+            android:id="@+id/ad_count_view1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+
+            />
+    <com.flyou.countview.AdCountView
+            android:layout_marginTop="10dp"
+            android:id="@+id/ad_count_view2"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            />
+    <com.flyou.countview.AdCountView
+            android:layout_marginTop="50dp"
+            android:id="@+id/ad_count_view3"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            />
+
+</LinearLayout>
