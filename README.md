@@ -90,7 +90,7 @@ an simple CountView for advertisement
 **Contact me**
 
 blog: [flyou.ren](http://flyou.ren)<br/>
-email:  [meil me](mailto:fangjaylong@gmail.com)
+email:  [email me](mailto:fangjaylong@gmail.com)
 
 **License**
 
