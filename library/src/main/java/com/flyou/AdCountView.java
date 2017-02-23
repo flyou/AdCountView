@@ -81,6 +81,11 @@ public class AdCountView extends View implements CountAnimationUtil.OnInterpolat
      */
     private CountAnimationUtil animation;
 
+    /**
+     * is inverse of anim
+     */
+    private boolean isInverse=false;
+
 
     private OnStatusChangeListener onStatusChangeListener;
 
@@ -168,11 +173,21 @@ public class AdCountView extends View implements CountAnimationUtil.OnInterpolat
     @Override
     public void onInterpolatedTimeChanged(float interpolatedTime) {
         if (interpolatedTime < 1.0f) {
-            mSweepAngle = 360 * interpolatedTime;
+            if(isInverse){
+                mSweepAngle=-360+360 * interpolatedTime;
+            }else {
+                mSweepAngle = 360 * interpolatedTime;
+            }
             postInvalidate();
         } else {
+            if(isInverse){
+                mSweepAngle=0;
+                postInvalidate();
+            }else {
+                mSweepAngle = 360;
+            }
             animation.cancel();
-            mSweepAngle = 360;
+
             if (onStatusChangeListener != null) {
                 onStatusChangeListener.onCountViewStop();
             }
@@ -233,7 +248,13 @@ public class AdCountView extends View implements CountAnimationUtil.OnInterpolat
         this.mText = text;
     }
 
-
+    /**
+     * is anim
+     * @param isInverse
+     */
+    public void setInverseAnim(boolean isInverse){
+       this.isInverse=isInverse;
+    }
 
     /**
      * anim start or stop listener

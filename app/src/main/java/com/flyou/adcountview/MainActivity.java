@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements AdCountView.OnSta
         adcountview3.setTextColor(getResources().getColor(R.color.base_white_100));
         adcountview3.setText("跳过广告");
         adcountview3.setTextSize(15);
+        adcountview3.setInverseAnim(true);
         adcountview3.start();
     }
 
