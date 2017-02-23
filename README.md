@@ -20,7 +20,7 @@ an simple CountView for advertisement
 ### Add the dependency
 
 	dependencies {
-	         compile 'com.github.flyou:AdCountView:1.0.3'
+	         compile 'com.github.flyou:AdCountView:1.0.4'
 	}
 
 ## Step 3
