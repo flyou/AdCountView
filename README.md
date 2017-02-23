@@ -90,10 +90,10 @@ an simple CountView for advertisement
 **Contact me**
 
 blog: [flyou.ren](http://flyou.ren)<br/>
-email:  [meil me](mailto:fangjaylong@gmail.com)
+email:  [email me](mailto:fangjaylong@gmail.com)
 
 **License**
 
-Tinker is under the Apache2.0 license. See the [LICENSE](https://github.com/flyou/AdCountView/blob/master/LICENSE) file for details.
+AdCountView is under the Apache2.0 license. See the [LICENSE](https://github.com/flyou/AdCountView/blob/master/LICENSE) file for details.
 
  
