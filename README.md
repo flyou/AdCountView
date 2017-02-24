@@ -84,6 +84,7 @@ an simple CountView for advertisement
 - **setBackgroundColor()** set circle background color
 - **setOutRingColor()** set out ring color
 - **setOnStatusChangeListener()** anim start or stop listener
+- **setInverseAnim()** anim run in inverse
 
 ----------
 
